@@ -4,14 +4,21 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
+/* body */
+body{
+    background-color: rgb(224, 221, 221);
+}
+
 /* HEADER */
 .header-container{
     width: 100%;
     margin: 0 auto;
     line-height: 100%;
     padding: 10px;
-    background-color: white;   
+    background-color: white;
+
 }
 #logo-img{
     height: 60px;
@@ -23,4 +30,42 @@
     font-weight:bolder;
     font-size: 2.5em;
     vertical-align: middle;
+}
+
+
+/* Main */
+.main-container{
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 2.5em;
+    border-radius: 5px;
+    background-color: white;
+}
+.nav-container{
+    width: 100%;
+    height: 50px;
+    padding: 10px 45px;
+    border-bottom: 1px solid rgb(228, 221, 221);
+    
+
+}
+.nav-button1{
+    width: 75px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #47adf1;
+    color: white;   
+}
+.nav-button2{
+    width: 92px;
+    height: 32px;
+    line-height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    color:lightgray;
 }
